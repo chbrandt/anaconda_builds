@@ -1,0 +1,23 @@
+package:
+  name: pyvo
+  version: 0.0beta2
+
+source:
+  git_url: https://github.com/pyvirtobs/pyvo.git
+  
+requirements:
+  build:
+    - python
+    - setuptools
+    - astropy
+  run:
+    - python
+    - astropy
+
+test:
+  imports:
+    - pyvo
+
+about:
+  summary: Providing access to remote data and services of the Virtual Observatory
+  home: https://github.com/pyvirtobs/pyvo

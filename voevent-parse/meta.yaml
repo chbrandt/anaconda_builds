@@ -1,0 +1,27 @@
+package:
+  name: voevent-parse
+  version: 0.9.3
+
+source:
+  git_url: https://github.com/timstaley/voevent-parse/
+  
+requirements:
+  build:
+    - python
+    - setuptools
+    - iso8601
+    - six
+    - lxml >=2.3,<4.0
+  run:
+    - python
+    - iso8601
+    - six
+    - lxml >=2.3,<4.0
+
+test:
+  imports:
+    - voeventparse
+
+about:
+  summary: Anonymous VOEvent client for receiving GCN/TAN notices in XML format
+  home: https://github.com/lpsinger/pygcn

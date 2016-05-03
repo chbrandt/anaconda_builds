@@ -1,0 +1,18 @@
+package:
+  name: pygcn
+  version: 0.1.7
+
+source:
+#  fn:  pygcn-0.1.7.tar.gz [py2k]
+#  md5: 717ad6ac1d4413c22feb1dbe9541a6e4 [py2k]
+#  url: https://pypi.python.org/packages/source/p/pygcn/pygcn-0.1.7.tar.gz [py2k]
+  git_url: https://github.com/lpsinger/pygcn
+  
+requirements:
+  build:
+    - python
+    - setuptools
+
+about:
+  summary: Anonymous VOEvent client for receiving GCN/TAN notices in XML format
+  home: https://github.com/lpsinger/pygcn
